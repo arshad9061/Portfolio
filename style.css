@@ -181,3 +181,27 @@
       a { color: #0957d0; }
       h2 { color: #0957d0; border-left-color: #0957d0; }
     }
+
+    /* ---------- Tools Section ---------- */
+
+   #tools p {
+      margin: 10px 0;
+      display: flex;
+      align-items: center;
+    }
+   #tools img {
+      width: 20px;
+      height: 20px;
+      margin-right: 10px;
+      filter: drop-shadow(0 0 2px #58a6ff);
+    }
+    #tools a {
+      color: #58a6ff;
+      text-decoration: none;
+      font-weight: 500;
+    }
+    #tools a:hover {
+      text-decoration: underline;
+      color: #1f6feb;
+    }
+
